@@ -17,7 +17,7 @@
 
 # 기획
 - 로그인: [https://www.figma.com/design/kavZDdrQUzP6ftz0oOp2dc/Untitled?node-id=0-1&t=XytOJRrE8w50C51X-1](https://www.figma.com/design/kavZDdrQUzP6ftz0oOp2dc/Fashion-order-server_Login?node-id=0-1&t=XytOJRrE8w50C51X-1)
-- 결제:
+- 결제: https://www.figma.com/design/B7ba4NaoUF1PRHp0izxyab/Fashion-order-server_order?node-id=0-1&t=BJrkBo6pHgPrGR2b-1
 - 주문내역 관리:
 <br/>
 
