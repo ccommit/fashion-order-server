@@ -16,7 +16,7 @@
 <br/>
 
 # 기획
-- 로그인:
+- 로그인: https://www.figma.com/design/kavZDdrQUzP6ftz0oOp2dc/Untitled?node-id=0-1&t=XytOJRrE8w50C51X-1
 - 결제:
 - 주문내역 관리:
 <br/>
