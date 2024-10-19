@@ -18,6 +18,8 @@
 
 # 기획
 - 로그인: https://www.figma.com/design/kavZDdrQUzP6ftz0oOp2dc/Fashion-order-server_Login?node-id=0-1&t=Oxn2DBu10TiLXQVZ-1
+- 회원가입:
+- 마이페이지: 
 - 결제: https://www.figma.com/design/B7ba4NaoUF1PRHp0izxyab/Fashion-order-server_order?node-id=0-1&t=BJrkBo6pHgPrGR2b-1
 - 주문내역: https://www.figma.com/design/W7OslQMfmaoIgM2l1PpK99/Fashion-order-server_history?node-id=0-1&t=DtwA0kg7rcZVjF7I-1
 <br/>
@@ -32,6 +34,10 @@
 - 자체 로그인 / 카카오 로그인
 - 아이디 / 비밀번호 찾기 기능 지원
 - 유저 레벨 타입(General / VIP / VVIP)
+    - General(일반 회원)
+    - VIP(총 주문 금액 20만원 이상, 10% 할인)
+    - VVIP(총 주문 금액 50만원 이상, 20% 할인)
+    - 스케줄 서버 도입(주 1회 오전 2시 시작)
   
 ## 👚상품 관리
 ### 일반 유저
@@ -50,7 +56,7 @@
 - 상품 등록
 - 상품 삭제
 - 상품 수정
-- 정산 하기
+- 정산하기
 
 ### 카테고리 관리
 - Blouse
@@ -70,3 +76,9 @@
 ## 📜주문내역 관리
 - 취소 / 반품내역 조회
 - 결제내역 조회
+<br/>
+
+# 시퀀스
+- 검색: https://www.websequencediagrams.com/cgi-bin/cdraw?lz=dGl0bGUg7Luk66i47IqkIOqygOyDiSDsi5ztgIDsiqQKClVzZXItPitXZWI6IApXZWItPitDb250cm9sbGVyOiDsobDtmoztlZjquLAo7KO866y467KI7Zi4LCDssJzrqqnroZ0sIOyepeuwlOq1rOuLiCwg7LWc7Iug7IicLCDquIjslaHsiJwpCgpub3RlIHJpZ2h0IG9mIFdlYjoKZXgpIEdFVCB7e3VybH19L2Zhc2hpb24tc2VyZXZlci9zZWFyY2g_dHlwZT0zCmVuZCBub3RlCgoAgRgKLT4rU2VydmljZTog7JqU7LKt7JioIO2MjOudvOuvuO2EsOuTpOydhACBQgcgRFRP7YG0656Y7Iqk66GcIOuzgOqyvSAKAD4HLT4rREI6IOyDge2SiCDthYzsnbTruJQAggAHCkRCLS0-LQBnCgBOBuyEseqztQA6CS0-LQCCMBIAHQgAgS8LLT4tAIJxBQA4DgCCfgVVcwApESDsnZHri7UKCg&s=default
+- 단건 주문: https://www.websequencediagrams.com/cgi-bin/cdraw?lz=dGl0bGUg7Luk66i47IqkIOyjvOusuCDshJzrsoQg64uo6rG0IOqysOygnCDsi5ztgIDsiqQKClVzZXItPitXZWI6ACwH67KI7Zi4LCDquIjslaEgCldlYi0-LVRvc3NBUEk6ADoJp4TtlokKbm90ZSByaWdodCBvZiBXZWI6CmV4KQp7CiAgICAib3JkZXJfbm8iOiIxMjM0NTY3IiwADgxwcmljZSI6IjEwMDAwMAAUCHByb2R1Y3RfbmFtZSI6IkZhc2hpb25fVGVlIgp9CmVuZCBub3RlCgoAgQwHLT4rQ29udHJvbGxlcjogcmVkaXJlY3QgVVJJ66GcAIFqCYq57J24IEFQSSDtmLjstpwKACsKLT4tU2VydmljZQCBVgkAgXYH67CPAIJBCOqwgOuKpSDsg4Htg5wg7ZmV7J24CgAwBy0-K0RCAIIRCpmE66OM7IucAIJ8CABBBYOB7ZKIIO2FjOydtOu4lCDrs4Dqsr0KREItAHMMABAGIOyEseqztQCCTw9EQjogCmV4KSAKMS4g66y87ZKIAINfBwCBFAiImOufiSDssKjqsJAgCjIuAIN9CABsCjHqsbQg7LaU6rCACjMAFwnrgrTsl60AEBcAgmgJAIFlCC0-LQCCZQwAhEwIAIEtBgCCSwstPi0AhFIFABQNIOydkeuLtQCEUAZVcwAwEeyLnCDrrLjsnpAg7ZqM7IugAINdCwBqDQCDUBiLpO2MqACDUBgrAINfCWxvZyDquLDroZ0AgUwMAIEjDQBFBQCFeAcAgRwOAF4GAIFDBwoKCgoKCg&s=default
+- 복합 결제: https://www.websequencediagrams.com/cgi-bin/cdraw?lz=dGl0bGUg7Luk66i47IqkIOyjvOusuCDshJzrsoQg67O17ZWpIOqysOygnCDsi5ztgIDsiqQKClVzZXItPitXZWI6ACwH67KI7Zi4LCDquIjslaEgCldlYi0-K1Rvc3NBUEk6ADoJp4TtlokKbm90ZSByaWdodCBvZiAAQQUKZXgpIAp7CiAgICBbeyJvcmRlcl9ubyI6IjEyMzQ1NjciLAAXBQATB3ByaWNlIjoiMTAwMDAwABQIcHJvZHVjdF9uYW1lIjoiRmFzaGlvbl9UZWUifQA5BgBHEzgARBYyADMnMiJ9AIEwBV0KfQplbmQgbm90ZQoKAIFyBy0-K0NvbnRyb2xsZXI6IHJlZGlyZWN0IFVSSeuhnACCUAmKueyduCBBUEkg7Zi47LacCgArCi0-K1NlcnZpY2UAgjwJAIJcB-uwjwCDEQmDge2DnCDtmZXsnbgKACkHLT4rREIAgnEJ67CPACIFkogg7YWM7J2067iUIOuzgOqyvQpEQi0tPi0AXgkAEAYg7ISx6rO1AEUJLT4tAIE_DACEDAgAHwYAgSULLT4tAIQSBQATDgCECgVVcwApESDsnZHri7UAgiYLAFkNAIIZGIuk7YyoAIIPImxvZyDquLDroZ0AgikFcmV0cnkAhUUJnqzsi5zrj4QAgVYMAIEtDQBgBQCFQwYtAIEtDgB5BgCBNAc&s=default
